@@ -23,3 +23,29 @@ __Methodology:__
 10. A Random Forest Classifier model was fitted with the train data and accuracy was checked on the test set.
 11. An XGBoost Classifier model was fitted with the trained data, hyperparameters were tuned. 
 12. Confusion matrix and classification reports were generated to check accuracy and precision on the test set.
+
+__Results:__
+
+In this study, the training dataset was fitted with three different types of Classification Algorithms; Decision Tree, Random Forest, and XGBoost and their accuracy were checked on the testing dataset and the results are as follows: 
+
+1. Accuracy of Decision Tree Classifier Model: 89.7 %
+2. Accuracy of Random Forest Classifier Model: 97.4 %
+3. Accuracy of XGBoost Classifier Model: 100.0 %
+
+![](https://github.com/SKandar-1/Figures/blob/main/XGBoost_Parkinsons_Confusion_Matrix.png)
+
+__Figure 1:__ Confusion Matrix for the XGBoost Classification Model.
+![](https://github.com/SKandar-1/Figures/blob/main/XGBoost_Parkinsons_Classification_Report.PNG)
+
+__Figure 2:__ Classification Report for the XGBoost Model.
+
+__Conclusions:__
+As expected, the accuracy of the models gradually increased from Decision Tree to Random Forest to XGBoost Classifier algorithms and the XGBoost model was able to predict Parkinson's disease with 100% accuracy on the testing dataset, i.e., no false positive or false negative result was predicted.
+
+
+__References:__
+1. https://parkinsonfoundation.org/
+2. 'Exploiting Nonlinear Recurrence and Fractal Scaling Properties for Voice Disorder Detection', Little MA, McSharry PE, Roberts SJ, Costello DAE, Moroz IM. BioMedical Engineering OnLine 2007, 6:23 (26 June 2007)
+3. https://archive.ics.uci.edu/ml/machine-learning-databases/parkinsons/
+4. https://data-flair.training/blogs/python-machine-learning-project-detecting-parkinson-disease/
+
