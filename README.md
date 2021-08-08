@@ -40,6 +40,7 @@ __Figure 1:__ Confusion Matrix for the XGBoost Classification Model.
 __Figure 2:__ Classification Report for the XGBoost Model.
 
 __Conclusions:__
+
 As expected, the accuracy of the models gradually increased from Decision Tree to Random Forest to XGBoost Classifier algorithms and the XGBoost model was able to predict Parkinson's disease with 100% accuracy on the testing dataset, i.e., no false positive or false negative result was predicted.
 
 
