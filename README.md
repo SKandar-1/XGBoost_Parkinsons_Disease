@@ -11,15 +11,15 @@ for Telemonitoring of Parkinson’s Disease in 2008 where they were able achieve
 
 __Methodology:__
 
-The data file (parkinsons.data) was downloaded from UCI Machine Learning Databases. (Reference 3)
-A pandas DataFrame was created from the data file.
-DataFrame was checked for any duplicates and missing values.
-DataFrame plotted in a scatter plot using matplotlib and pyplot libraries and in a heatmap using seaborn library.
-Features were retrieved from the DataFrame which includes all the columns except ‘status’.
-Labels were retrieved from the DataFrame which is the ‘status’ column. (Reference 4)
-Features were scaled between -1 and 1.
-The data set was split (80-20) between train and test.
-A Decision Tree Classifier model was fitted with the train data and accuracy was checked on the test set.
-A Random Forest Classifier model was fitted with the train data and accuracy was checked on the test set.
-An XGBoost Classifier model was fitted with the trained data, hyperparameters were tuned. 
-Confusion matrix and classification reports were generated to check accuracy and precision on the test set.
+1. The data file (parkinsons.data) was downloaded from UCI Machine Learning Databases. (Reference 3)
+2. A pandas DataFrame was created from the data file.
+3. DataFrame was checked for any duplicates and missing values.
+4. DataFrame was plotted in a scatter plot using matplotlib and pyplot libraries and in a heatmap using seaborn library.
+5. Features were retrieved from the DataFrame which includes all the columns except ‘status’.
+6. Labels were retrieved from the DataFrame which is the ‘status’ column. (Reference 4)
+7. Features were scaled between -1 and 1.
+8. The data set was split (80-20) between train and test.
+9. A Decision Tree Classifier model was fitted with the train data and accuracy was checked on the test set.
+10. A Random Forest Classifier model was fitted with the train data and accuracy was checked on the test set.
+11. An XGBoost Classifier model was fitted with the trained data, hyperparameters were tuned. 
+12. Confusion matrix and classification reports were generated to check accuracy and precision on the test set.
