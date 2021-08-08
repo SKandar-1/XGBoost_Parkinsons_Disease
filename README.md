@@ -1,4 +1,4 @@
-# XGBoost_Parkinsons_Disease
+__Title:__ Detecting Parkinson’s Disease by Machine Learning using XGBoost Algorithm
 
 __Abstract:__
 
